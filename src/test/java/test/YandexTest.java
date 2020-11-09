@@ -25,9 +25,9 @@ import static com.codeborne.selenide.Selenide.*;
 public class YandexTest {
     WebDriver driver;
 
-    private static String yandexUsername = System.getProperty("yandex.username", "your username");
-    private static String yandexPassword = System.getProperty("yandex.password", "your password");
-    private static String yandexAccount = System.getProperty("yandex.accname", "your account name");
+    private static String yandexUsername = System.getProperty("yandex.username", "dima-oshkanov");
+    private static String yandexPassword = System.getProperty("yandex.password", "19dima95");
+    private static String yandexAccount = System.getProperty("yandex.accname", "dima.oshkanov");
 
     @Rule
     public TestRule report = new TextReport().onFailedTest(true).onSucceededTest(true);
